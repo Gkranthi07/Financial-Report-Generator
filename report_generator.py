@@ -55,7 +55,7 @@ def create_visual(data_frame, output_path):
 
 def create_pdf(financial_data, chart_path):
     """Creates a PDF report with the financial summary and the expense chart."""
-    report_date = datetime.now().strftime("%Y-%m-%d")
+    report_date = datetime.now().strftime("%Y")
     pdf_filename = f"Financial_Report_{report_date}.pdf"
     print(f"Generating PDF report: {pdf_filename}...")
 
